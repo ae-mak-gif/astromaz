@@ -1,0 +1,2 @@
+import type { MetadataRoute } from 'next';
+export default function sitemap():MetadataRoute.Sitemap{const base='https://astromaz-website.vercel.app';const paths=['','/about','/services','/projects','/contact','/services/aluminium-glass','/services/shopfitting','/services/cupboards-cabinetry','/services/steel-fabrication','/services/ceilings','/services/renovations-maintenance'];return paths.map(path=>({url:`${base}${path}`,lastModified:new Date(),changeFrequency:'monthly',priority:path===''?1:(path.startsWith('/services/')?0.75:0.8)}));}
