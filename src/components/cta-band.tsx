@@ -1,2 +1,2 @@
 import Link from 'next/link'; import { ArrowUpRight } from 'lucide-react';
-export function CtaBand(){return <section className="cta-band"><div><span className="eyebrow">HAVE A PROJECT IN MIND?</span><h2>Let's shape the space<br/>you have in mind.</h2></div><Link className="button button-gold" href="/contact">Discuss your project <ArrowUpRight size={17}/></Link><div className="cta-watermark">A.</div></section>}
+export function CtaBand(){return <section className="cta-band"><div><span className="eyebrow">HAVE A PROJECT IN MIND?</span><h2>Let&apos;s shape the space<br/>you have in mind.</h2></div><Link className="button button-gold" href="/contact">Discuss your project <ArrowUpRight size={17}/></Link><div className="cta-watermark">A.</div></section>}
