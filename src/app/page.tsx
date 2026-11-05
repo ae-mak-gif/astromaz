@@ -46,11 +46,11 @@ export default function Home() {
         </div>
       </section>
       <section className="capability-band">
-        <div className="capability-photo"><img src={images.steel} alt="Astromaz decorative steel gate and metalwork" /></div>
+        <div className="capability-photo"><img src={images.staircase} alt="Contemporary staircase and interior detailing" /></div>
         <div className="capability-copy">
           <span className="eyebrow">OUR CAPABILITIES</span>
           <h2>From the first detail to the final fit.</h2>
-          <p>A selection of Astromaz project photography, showing examples of the materials, finishes and spaces behind our work.</p>
+          <p>Explore a broader selection of materials, interior details and spaces that reflect the range of work Astromaz can undertake.</p>
           <div className="capability-list"><span>Aluminium & glass</span><span>Commercial interiors</span><span>Custom cabinetry</span><span>Steel fabrication</span><span>Ceiling installations</span><span>Renovations & upkeep</span></div>
           <Link className="text-link" href="/projects" style={{ color: '#fff' }}>Explore our work <ArrowUpRight size={16} /></Link>
         </div>
